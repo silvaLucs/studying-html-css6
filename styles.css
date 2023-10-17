@@ -9,13 +9,6 @@ body{
     background-color: #2C2B3D;
     }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 70px 100px;
-}
-
 ul{
     list-style: none;
     display: flex;
@@ -33,10 +26,12 @@ li a {
     text-decoration: none;
 }
 
-main {
-    margin: 100px 100px 80px;
+main, nav {
     display: flex;
+    width: 1092px;
+    margin: 70px auto;
     justify-content: space-between;
+    align-items: center;
 
 }
 
